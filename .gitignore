@@ -18,6 +18,7 @@ venv.bak/
 dist/
 build/
 *.whl
+.env
 
 # Django stuff:
 *.log
