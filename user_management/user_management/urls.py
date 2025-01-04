@@ -20,5 +20,6 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('main.urls')), #urls for main app
+    path('',include('django.contrib.auth.urls')), #urls for authentication, login, logout, password reset etc -> inside of registration folder
     
 ]
